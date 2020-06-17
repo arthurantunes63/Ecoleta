@@ -1,0 +1,50 @@
+@media (max-width: 900px) {
+    #pageHome {
+        background-position-x: 70vw;
+    }
+
+    #pageHome .content {
+        align-items: center;
+        text-align: center;
+    }
+
+    #pageHome header a {
+        position: absolute;
+        bottom: 48px;
+
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #pageHome main {
+        align-items: center;
+    }
+
+    #pageSearchResults .cards {
+        grid-template-columns: 1fr;
+    }
+
+    #pageSearchResults .cards img {
+        height: 250px;
+    }
+
+    #pageCreatePoint .fieldGroup {
+        flex-direction: column;
+    }
+
+    #pageCreatePoint .fieldGroup .field + .field {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 1700px) {
+    #pageHome {
+        background-position-x: 40vw;
+    }
+}
+
+@media (max-height: 760px) {
+    #pageHome {
+        background-position-y: 200px;
+    }
+}
