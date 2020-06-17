@@ -74,6 +74,39 @@
 !['Iten Selecionados'](/screenshots/selectedItems.png)
 !['Pesquisa'](/screenshots/search.png)
 
-## 4º Dia:
+## 4º Dia: Início Back-end
+- Emprego do JavaScript + SQLite + Node.js;
+- Separação Front-end/Back-end em pastas;
+- Node Package Manager (npm): configurações do node de modo + integrado - package.json;
+   - express: módulo utilizado afim de facilitar a criação de servidores;
+   - js + express + node = execução de scripts para um server.
+- `GET`: verbo HTTP;
+   - modo de realizar o pedido: as rotas da aplicação serão o caminho GET;
+   - GET -> / (nome) -> função (requisição, resposta).
+- Configuração dos caminhos de diretórios de um servidor;
+- node monitoring (nodemon): responsável pela atualização constante da página com base nas modificações dos arquivos;
+- Template Engine: nunjucks;
+   - Transforma o HTML de estático para dinâmico;
+   - Funções, estruturas de repetição, variáveis, estruturas condicionais;
+   - Motor para trabalhar com o layout no preenchimento de informações.
+- cache: salva coisas em memória para uma resposta mais rápida;
+- nunjucks + HTML;
+   - variável - `{{ }}` -> possibilidade de recuperação de informações por meio de um banco de dados;
+   - adição de estruturas - `{{% include "" %}}`
 
-## 5º Dia:
+   
+
+## 5º Dia: Configuração do Banco de Dados no back-end
+- Criação de objetos por meio do `new`;
+- template string delimitado por crase - substituição das variáveis por seus valores em uma string;
+- função callback;
+   - Função passada como parâmetro que é chamada num dado tempo após a realização de uma determinada execução -> resposta;
+- exportar objetos;
+   - `module.exports = object`;
+   - recuperar este por meio do `.require()`;
+- query strings: variáveis da barra de navegação e demais símbolos;
+   - `?%name=`;
+   - utilizamos deste para recuperar informações do formulário e serem inseridos posteriormente no banco de dados;
+- POST - Verbo HTTP: envio de dados procede-se de maneira oculta;
+- `SQL LIKE '% *qualquer coisa antes ou qualquer coisa depois* %'`;
+- `rem`: unidade de medida calculada por meio do elemento root;
